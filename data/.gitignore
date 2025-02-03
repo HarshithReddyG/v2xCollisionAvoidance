@@ -1,0 +1,68 @@
+# ==============================
+# Data Files (Exclude raw/processed data)
+# ==============================
+data/                # Exclude the entire data folder (raw and processed)
+*.bin                # LiDAR binary files
+*.pcd                # Point cloud data files
+*.ply                # CARLA simulation files
+*.csv                # Large CSV files (if any)
+*.h5                 # HDF5 files (if used for storage)
+*.npy                # NumPy array files (if used for storage)
+
+# ==============================
+# Environment and IDE Files
+# ==============================
+venv/                # Python virtual environment
+.env                 # Environment variables file
+.venv/               # Alternate virtual environment folder
+.env.local           # Local environment variables
+.env.development     # Development environment variables
+.env.production      # Production environment variables
+.vscode/             # Visual Studio Code settings
+.idea/               # PyCharm/IntelliJ IDEA settings
+*.swp                # Vim swap files
+*.swo                # Vim swap files
+
+# ==============================
+# Python-Specific Files
+# ==============================
+__pycache__/         # Python bytecode cache
+*.pyc                # Compiled Python files
+*.pyo                # Optimized Python files
+*.pyd                # Python dynamic modules
+*.egg-info/          # Python package metadata
+dist/                # Distribution folders
+build/               # Build folders
+*.so                 # Compiled C extensions
+
+# ==============================
+# Jupyter Notebooks and Outputs
+# ==============================
+.ipynb_checkpoints/  # Jupyter notebook checkpoints
+*.ipynb              # Exclude notebooks (if not needed)
+notebooks/*.html     # HTML exports of notebooks
+notebooks/*.gif      # GIFs generated in notebooks
+notebooks/*.png      # Temporary plot images
+
+# ==============================
+# Logs and Temporary Files
+# ==============================
+*.log                # Log files
+*.tmp                # Temporary files
+*.bak                # Backup files
+*.cache              # Cache files
+
+# ==============================
+# System Files
+# ==============================
+.DS_Store            # macOS folder attributes
+Thumbs.db            # Windows thumbnail cache
+desktop.ini          # Windows folder customizations
+
+# ==============================
+# Large Files and Archives
+# ==============================
+*.zip                # Zip archives
+*.tar.gz             # Compressed tar archives
+*.7z                 # 7-Zip archives
+*.rar                # RAR archives
